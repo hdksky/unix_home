@@ -10,3 +10,8 @@ bind k prev
 # fix screen not source .bash_profile 
 shell -$SHELL
 screen bash
+
+# Init four screen tab
+screen
+screen
+screen
