@@ -7,6 +7,8 @@ bind ' ' copy
 bind j next
 bind k prev
 
+vbell off
+
 # fix screen not source .bash_profile 
 shell -$SHELL
 screen bash
