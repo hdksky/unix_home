@@ -12,6 +12,6 @@ shell -$SHELL
 screen bash
 
 # Init four screen tab
-screen
-screen
-screen
+screen bash
+screen bash
+screen bash
