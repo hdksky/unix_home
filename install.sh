@@ -21,13 +21,12 @@ echo "export PS1='[\u@\h \W$(__git_ps1 \" (%s)\")]\$ '" >> ~/.bashrc
 install_file .screenrc
 install_file .vimrc
 install_file .vim
-install_file .bash_profile
-install_file .dircolors
+#install_file .bash_profile
+#install_file .dircolors
 install_file .git-completion.bash && echo "source ~/.git-completion.bash" >> ~/.bashrc
 install_file .fonts
 install_file .gitignore
 install_file .gitconfig
-install_file .dircolors
 
 git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
