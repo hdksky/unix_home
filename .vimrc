@@ -177,3 +177,9 @@ let g:neocomplcache_enable_at_startup=1
 filetype on
 filetype plugin indent on
 
+" Golang
+filetype off
+filetype plugin indent off
+set runtimepath+=$GOROOT/misc/vim
+filetype plugin indent on
+syntax on
